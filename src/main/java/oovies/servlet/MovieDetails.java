@@ -64,6 +64,7 @@ public class MovieDetails extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
+    	System.out.println("do post in detail");
         
         Map<String, String> messages = new HashMap<String, String>();
         req.setAttribute("messages", messages);

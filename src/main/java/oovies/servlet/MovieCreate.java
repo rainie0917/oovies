@@ -42,6 +42,7 @@ public class MovieCreate extends HttpServlet {
 		throws ServletException, IOException{
 		Map<String, String> messages = new HashMap<>();
 		req.setAttribute("messages", messages);
+		req.getParameter("movieId");
 		req.getRequestDispatcher("/MovieCreate.jsp").forward(req, resp);
 	}
 	

@@ -45,7 +45,6 @@ String username = (String) session.getAttribute("username");
 	        </form>
 	     </div> 
 	    
-	    <%-- TODO --%>
 	    <h4 class="ms-3 mt-2">Manage Reviews</h4>    
         <div class="d-flex">
 	        <form action="reviewdelete" method="post">
